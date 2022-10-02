@@ -1,0 +1,109 @@
+.flex-container {
+ display:flex;
+ 
+  
+
+}
+.card{
+  text-align: center;
+
+  width:20%;
+  height:2%;
+}
+
+.mainheader {
+  text-align: center;
+  background-color: #006666;
+  color: aliceblue;
+  padding: 5px;
+}
+.image{
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.2rem;
+  color:green;
+}
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  /* font-size: 30px; */
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+
+}
+
+.dropdown>input {
+  border-radius: 25px;
+  height: 35px;
+  width:40%;
+  gap:10px;
+ 
+}
+
+.dropdown>select {
+  border-radius: 25px;
+  height: 35px;
+  width:40%;
+  gap:10px;
+}
+.button > button{
+  border-radius: 30px;
+  /* width: 100px;
+  height:40px; */
+}
+.button{
+  display:flex;
+  gap:25px;
+
+  
+}
+
+.btn{
+  background-color: orange;
+  /* color:white; */
+  width:80%;
+
+  height:40px;
+
+ 
+}
+.btn2{
+  background-color: #928f8f;
+  width:100px;
+  height:40px;
+  
+
+}
+.subcard{
+  display: flex;
+  
+  flex-wrap: wrap;
+ width: 100%;
+  /* height:70%; */
+}
+.left{
+  margin-left:50px;
+ 
+  width:50%;
+ }
+ .right{
+  width:50%;
+ }
+ .buttom{
+  display:block;
+  /* width: 100%; */
+ }
+#box{
+  width:50px;
+
+}
